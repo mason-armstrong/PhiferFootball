@@ -1,0 +1,260 @@
+.list-MPT label {
+	width: 300px;
+	display: inline-block;
+}
+
+.legend_post_type {
+	width: 300px;
+}
+#hide-before-import {
+	width: 100%;
+	padding: 25px 0 30px;
+	overflow: hidden;
+}
+#results {
+	margin-top: 25px;
+	color: red;
+	font-weight: bold;
+	width: 100%;
+	padding: 6px 0 5px 10px;
+	max-height: 200px;
+	overflow-y: scroll;
+}
+.ui-progressbar .ui-progressbar-value {
+	background-image: url( '../img/pbar-ani.gif' );
+}
+.upgrade-pro {
+	font-weight: 700;
+	color: red !important;
+}
+
+
+/* Bulk Generation Table */
+.wp-list-mpt td.column-title, 
+.wp-list-mpt td.column-status, 
+.wp-list-mpt td.column-edit-links, 
+.wp-list-mpt td.column-image {
+	vertical-align: middle;
+	width: 25%;
+}
+
+.wp-list-mpt th.manage-column {
+	width: 25%;
+}
+
+.wp-list-mpt thead > tr > th#title {
+	padding-left: 10px;
+}
+
+
+.wp-list-mpt thead {
+	display:block;
+}
+.wp-list-mpt tbody {
+	display:block;
+	max-height:380px;
+	overflow-y:scroll;
+}
+
+.wp-list-mpt .row-actions {
+	font-weight: 400;
+	left: 0;
+	display: none;
+}
+
+.wp-list-mpt > tbody .successful-generation {
+	display: none;
+	background-color: #eee;
+}
+
+.wp-list-mpt .successful-generation strong {
+	text-align: center;
+	color: green;
+	padding: 11px 0;
+	display: block;
+	font-size: 15px;
+}
+
+.wp-list-mpt .row-status .status.successful,
+.wp-list-mpt .row-status .status.failed,
+.wp-list-mpt .row-status .status.error,
+.wp-list-mpt .row-status .status.already-done,
+.wp-list-mpt .row-status .status.no-rewrite,
+.wp-list-mpt .row-image {
+	display: none;
+}
+
+.wp-list-mpt .row-actions .dashicons {
+	font-size: 15px;
+	vertical-align: -25%;
+}
+
+.wp-list-mpt .status {
+	font-weight: 600;
+}
+
+.wp-list-mpt .successful {
+	color: green;
+}
+.wp-list-mpt .failed,
+.wp-list-mpt .error {
+	color: #c92c2c;
+}
+.wp-list-mpt .already-done, 
+.wp-list-mpt .no-rewrite {
+	color: #eda567;
+}
+
+.wp-list-mpt .empty-content {
+	text-align: center;
+}
+
+
+
+/* Progressbar */
+
+.progressionbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#ddd;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.progressionbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#124e8c;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.progressionbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.progressionbar-bar {
+	height:35px;
+	width:0px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+	background-size: 40px 40px;
+	background-color: #428bca;
+	animation: progress-bar-stripes 2s linear infinite;
+	-webkit-transition: width .6s ease;
+	transition: width .6s ease;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.6);
+	background: rgba(255,255,255,0.5);
+	padding: 0 10px;
+	font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 782px) {
+	table.wp-list-mpt tr {
+		width: 100% !important;
+		display: block !important;
+	}
+}
+
+
+
+
+/* Trick for settings tabs */
+.nav-tab-wrapper.main-settings-tabs > ul > .ui-tabs-active.ui-state-active > a {
+    margin-bottom: -1px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+.nav-tab-wrapper.main-settings-tabs > ul > .ui-state-default:not(.ui-tabs-active.ui-state-active) > a {
+    border: 1px solid #ccc;
+    background: #e5e5e5;
+    color: #555;
+}
+
+
+/* Logs */
+#logs-block {
+    background: #272822;
+    border-radius: 0.3em;
+    padding: 1em;
+    overflow: auto;
+    color: #f8f8f2;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    max-height: 400px;
+}
+
+
+
+/* Progress Bar*/
+@-webkit-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+@-moz-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+@-o-keyframes progress-bar-stripes{from{background-position:0 0}to{background-position:40px 0}}
+@keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+.progress{height:20px;margin-bottom:20px;overflow:hidden;background-color:#f5f5f5;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}
+.progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#428bca;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);-webkit-transition:width .6s ease;transition:width .6s ease}
+.progress-striped .progress-bar{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-size:40px 40px}
+.progress.active .progress-bar{-webkit-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite}
+.progress-bar-success{background-color:#5cb85c}
+.progress-striped .progress-bar-success{background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);

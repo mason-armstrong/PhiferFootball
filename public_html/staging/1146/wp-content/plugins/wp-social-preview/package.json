@@ -1,0 +1,21 @@
+{
+  "name": "wp-social-preview",
+  "private": true,
+  "scripts": {
+    "sidebar-start": "wp-scripts start js/sidebar.js",
+    "sidebar-build": "wp-scripts build js/sidebar.js"
+  },
+  "devDependencies": {
+    "@wordpress/block-editor": "^3.5.0",
+    "@wordpress/components": "^9.0.0",
+    "@wordpress/compose": "^3.10.0",
+    "@wordpress/data": "^4.12.0",
+    "@wordpress/edit-post": "^3.11.0",
+    "@wordpress/element": "^2.10.0",
+    "@wordpress/plugins": "^2.10.0",
+    "@wordpress/scripts": "^6.2.0"
+  },
+  "dependencies": {
+    "react-modal": "^3.11.1"
+  }
+}

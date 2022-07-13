@@ -1,0 +1,228 @@
+.wp-social-preview-modal-close {
+    position: absolute;
+    top: -40px;
+    right: -10px;
+    border: 0;
+    background: transparent;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.wp-social-preview-modal-close:hover {
+    opacity: 1;
+}
+
+.wp-social-preview-modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    box-shadow: 0 2px 5.9px rgba(0, 0, 0, 0.028),
+                0 5.4px 12.1px rgba(0, 0, 0, 0.04),
+                0 12.2px 21.6px rgba(0, 0, 0, 0.052),
+                0 36px 51px rgba(0, 0, 0, 0.08);
+}
+
+.wp-social-preview-modal-wrap {
+    display: flex;
+    min-height: 100%;
+}
+
+.wp-social-preview-modal-main {
+    width: 100%;
+    max-width: 590px;
+    padding: 16px 32px;
+    box-sizing: border-box;
+}
+
+.wp-social-preview-modal-main p {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.wp-social-preview-modal-sidebar {
+    flex-shrink: 0;
+    width: 312px;
+    padding: 16px;
+    border-left: 1px solid #e2e4e7;
+    box-sizing: border-box;
+}
+
+.wp-social-preview-modal-sidebar .components-base-control {
+    margin-top: 20px;
+}
+
+.wp-social-preview-modal-sidebar img {
+    width: 100%;
+    height: auto;
+}
+
+.wp-social-preview-modal-content .wp-social-preview-share-preview {
+    margin-bottom: 30px;
+}
+
+.wp-social-preview-share-preview {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #606770;
+    background: #f4f5f6;
+    border: 1px solid #dddfe2;
+    max-width: 524px;
+}
+
+.wp-social-preview-share-preview-content {
+    padding: 10px 12px;
+}
+
+.wp-social-preview-share-preview-image {
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.wp-social-preview-share-preview-url {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 218px;
+}
+
+.wp-social-preview-share-preview-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d2129;
+    line-height: 20px;
+    margin: 3px 0 0;
+    padding-top: 2px;
+    max-height: 40px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.wp-social-preview-share-preview-description {
+    max-height: 80px;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.wp-social-preview-share-preview-twitter {
+    background: #ffffff;
+    border-color: #e1e8ed;
+    border-radius: 6px;
+}
+
+.wp-social-preview-share-preview-twitter .wp-social-preview-share-preview-image {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-color: #e1e8ed;
+}
+
+.wp-social-preview-share-preview-twitter .wp-social-preview-share-preview-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.wp-social-preview-share-preview-twitter .wp-social-preview-share-preview-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 18px;
+    max-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.wp-social-preview-share-preview-twitter .wp-social-preview-share-preview-description {
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+    margin: 5px 0 0;
+}
+
+.wp-social-preview-share-preview-twitter .wp-social-preview-share-preview-url {
+    order: 3;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8899a6;
+    line-height: 18px;
+    margin: 4px 0 0;
+    text-transform: lowercase;
+}
+
+.wp-social-preview-share-preview-linkedin .wp-social-preview-share-preview-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.wp-social-preview-share-preview-linkedin .wp-social-preview-share-preview-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+.wp-social-preview-share-preview-linkedin .wp-social-preview-share-preview-description {
+    display: none;
+}
+
+.wp-social-preview-share-preview-linkedin .wp-social-preview-share-preview-url {
+    order: 3;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 16px;
+    margin: 4px 0 0;
+    text-transform: lowercase;
+}
+
+.wp-social-preview-share-preview-pinterest {
+    max-width: 236px;
+    background: #ffffff;
+    border: 0;
+    border-radius: 0;
+}
+
+.wp-social-preview-share-preview-pinterest .wp-social-preview-share-preview-image {
+    border-radius: 16px;
+    border: 0;
+}
+
+.wp-social-preview-share-preview-pinterest .wp-social-preview-share-preview-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3a3a3a;
+    line-height: 18px;
+    max-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.wp-social-preview-share-preview-pinterest .wp-social-preview-share-preview-description {
+    display: none;
+}
+
+.wp-social-preview-share-preview-pinterest .wp-social-preview-share-preview-url {
+    display: none;
+}

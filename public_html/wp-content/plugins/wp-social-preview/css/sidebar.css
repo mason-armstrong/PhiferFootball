@@ -1,0 +1,10 @@
+.wp-social-preview-sidebar-media-upload-control .components-button {
+    display: block;
+    margin-top: 1em;
+}
+
+.wp-social-preview-sidebar-media-upload-control img {
+    width: 100%;
+    height: auto;
+    max-width: 526px;
+}

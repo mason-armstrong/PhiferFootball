@@ -1,0 +1,155 @@
+<?php
+defined( 'ABSPATH' ) || exit;
+/**
+ *
+ * @package Neatly
+ */
+/*Loop*/
+$i = 1;
+
+
+$mod_value = array(
+	'index_widget' => get_theme_mod( 'neatly_index_widget','after'),
+	'index_widget_num' => get_theme_mod( 'neatly_index_widget_num',3),
+	'thum_size' => get_theme_mod( 'neatly_index_thum_size','large'),
+	'index_avatar' => get_theme_mod( 'neatly_index_avatar',true),
+	'index_author_name' => get_theme_mod( 'neatly_index_author_name',true),
+	'index_date_type' => get_theme_mod( 'neatly_index_date_type','human'),
+	'index_time_display' => get_theme_mod( 'neatly_index_time_display',false),
+	'excerpt_type' => get_theme_mod( 'neatly_excerpt_type','characters'),
+	'excerpt_length' => get_theme_mod( 'neatly_excerpt_length_customize',300),
+	'excerpt_ellipsis' => get_theme_mod( 'neatly_excerpt_ellipsis','&hellip;'),
+);
+
+
+while(have_posts()): the_post();
+	$post_title = get_the_title();
+
+
+	$post_author = get_the_author();
+	$human_time = '';
+	$sticky = '';
+
+	/*抜粋オプション判定*/
+	if(has_excerpt()){
+
+		$allowed_html = array(
+			'br' => array(),
+		);
+		$post_content =  wp_kses( nl2br( get_post_field('post_excerpt', $post->ID) ), $allowed_html);
+
+	}else{
+
+		if($mod_value['excerpt_type'] === 'characters'){
+
+			$post_content =  mb_substr(  wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true), 0 , absint( $mod_value['excerpt_length'] ) , 'UTF-8' ) .$mod_value['excerpt_ellipsis'];
+
+		}else{
+
+			$excerpt = explode(' ', wp_strip_all_tags( preg_replace('{\[[^\]]+\]}s', '',  get_the_content() ), true ), absint( $mod_value['excerpt_length'] ) );
+
+			if (count($excerpt) >= $mod_value['excerpt_length']) {
+
+				array_pop($excerpt);
+
+				$excerpt = implode(" ",$excerpt).$mod_value['excerpt_ellipsis'];
+
+			} else {
+
+				$excerpt = implode(" ",$excerpt);
+
+			}
+
+			$post_content =  preg_replace('{[[^]]*]}','',$excerpt);
+
+		}
+
+	}
+
+
+	$post_date = '';
+
+	if( is_sticky() ) {
+		$sticky = '<span class="mr4 svg16">'. neatly_get_theme_svg( 'thumb-tack' ) .'</span> ';
+
+	}else{
+
+		if( $mod_value['index_date_type'] === 'human'){
+
+			$human_time =  neatly_human_time_diff( get_the_time('U') );
+			if($human_time !== '')$post_date = $human_time;
+
+		}elseif( $mod_value['index_date_type'] === 'normal'){
+			$post_date = get_the_date();
+
+			if($mod_value['index_time_display'])
+				$post_date .= '<span class="index_time ml4 sub_fc fs12">'.get_the_time().'</span>';
+		}
+
+		if($mod_value['index_date_type'] !== 'none'){
+			$post_date = '<div class="index_date sub_fc fs12" title="'.get_the_date().'">'.$post_date.'</div>';
+		}
+
+	}
+
+	?>
+	<article <?php post_class('index_frame'); ?>>
+		<a href="<?php the_permalink(); ?>" class="main_fc tap_no">
+			<?php
+			if(has_post_thumbnail()) {/*サムネイルがある場合*/
+				echo '<figure class="index_thum mb_M fit_index fit_box_img_wrap">';
+				the_post_thumbnail($mod_value['thum_size']);
+				echo '</figure>';
+			}
+
+
+
+			echo '<h2 class="index_title f_box ai_c lh_15 mb8">'.$sticky.$post_title.'</h2>';
+			echo '<div class="index_content line_clamp lc3 of_h fsS mb_M">'.$post_content.'</div>';
+			?>
+		</a>
+		<div class="index_meta">
+			<?php
+			if ( comments_open() ) {
+				$num_comments = intval( get_comments_number() );
+				if($num_comments !== 0): ?>
+					<div class="index_comment mb_M fs14 sub_fc">
+						<a href="<?php the_permalink(); ?>#comments"><span class="svg12"><?php echo neatly_get_theme_svg( 'comment-o' ); ?></span> <?php comments_number('0','1','%'); ?></a>
+					</div>
+				<?php endif;
+			} ?>
+			<div class="index_avatime f_box ai_c">
+				<?php if($mod_value['index_avatar']): ?>
+					<div class="index_avatar mr4">
+						<?php echo '<a href="'.esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )).'" class="f_box ai_c"><img src="' . esc_url( get_avatar_url( get_the_author_meta( 'ID' ) , array("size"=>96 )) ) . '" width="32" height="32" class="br50" alt="'.get_the_author_meta( 'nickname' ).'" decoding="async" /></a>'; ?>
+					</div>
+				<?php endif; ?>
+				<div class="lh_12">
+					<?php if($mod_value['index_author_name']): ?>
+						<div class="index_author sub_fc fs12 mb4">
+							<?php echo '<a href="'.esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )).'" class="sub_fc">'. $post_author .'</a>'; ?>
+						</div>
+					<?php endif;
+					echo $post_date;
+					?>
+				</div>
+			</div>
+		</div>
+	</article>
+	<?php
+
+	/*Index Widget*/
+	if ( is_active_sidebar( 'index_list' ) ){
+		if( ($mod_value['index_widget_num'] === $i && $mod_value['index_widget'] === 'after') || ( $i % $mod_value['index_widget_num'] === 0 && $mod_value['index_widget'] === 'every') ){
+			?>
+			<div class="index_frame">
+				<?php dynamic_sidebar( 'index_list' ); ?>
+			</div>
+			<?php
+		}
+	}
+
+	++$i;
+
+endwhile;
+

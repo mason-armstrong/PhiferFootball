@@ -1,0 +1,586 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NewsToday\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:15
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Apologies, but the requested page cannot be found. Perhaps searching will "
+"help find a related page."
+msgstr ""
+
+#: 404.php:24 search.php:24
+msgid "Browse Categories"
+msgstr ""
+
+#: 404.php:31 search.php:29
+msgid "Monthly Archives"
+msgstr ""
+
+#. %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:33
+msgid "Copyright &copy; "
+msgstr ""
+
+#: footer.php:33
+msgid "All Rights Reserved. "
+msgstr ""
+
+#: footer.php:34
+msgid "Theme by"
+msgstr ""
+
+#: footer.php:34
+msgid "Magazine WordPress Themes"
+msgstr ""
+
+#: functions.php:118
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:130
+msgid "Featured Image: Main Size"
+msgstr ""
+
+#: functions.php:131
+msgid "Featured Image: Thumbnail"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Josefin Slab, translate this to 'off'. Do not translate into your own language.
+#: functions.php:151
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:194
+msgctxt "The main label for the expandable mobile menu"
+msgid "Click for Menu"
+msgstr ""
+
+#. page number
+#: functions.php:354
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:385
+msgid "Logo for "
+msgstr ""
+
+#: functions.php:408
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:408 functions.php:436
+msgid "Edit"
+msgstr ""
+
+#. 1: date, 2: time
+#: functions.php:426
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:432
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: index.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: search.php:15
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:22
+msgid "Apologies, but the search query did not return any results."
+msgstr ""
+
+#: customizer/customizer.php:177
+msgid "General"
+msgstr ""
+
+#: customizer/customizer.php:178 customizer/sections/footer.php:8
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer.php:232
+msgid "Theme Documentation"
+msgstr ""
+
+#: customizer/customizer.php:237
+msgid "Official Theme Page"
+msgstr ""
+
+#: customizer/customizer.php:242
+msgid "Support Forum"
+msgstr ""
+
+#: customizer/customizer.php:247
+msgid "Rate Newstoday"
+msgstr ""
+
+#: customizer/customizer.php:257
+msgid "Theme Help & Support"
+msgstr ""
+
+#. This is the copyright notice that appears in the footer of the website.
+#: customizer/helpers-defaults.php:7
+#, php-format
+msgid "Copyright &copy; %1$s %2$s."
+msgstr ""
+
+#: customizer/helpers.php:159 customizer/helpers.php:209
+#: customizer/helpers.php:259
+msgid "None"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:92
+msgid "Pages"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:106
+msgid "Tags"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:215
+msgid "Previous Article"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:216
+msgid "Next Article"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:241
+msgid "Subscribe to this category"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:241
+msgid "RSS Feed"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:18
+msgid "NewsToday Theme"
+msgstr ""
+
+#. Theme name and version
+#: ilovewp-admin/ilovewp-theme-settings.php:41
+#, php-format
+msgid ""
+"<span class=\"theme-name\">%1$s Theme</span> <span class=\"theme-version\">"
+"(version %2$s)</span>"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:45
+msgid "Theme Details"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:46
+msgid "Newstoday Live Demo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:47
+msgid "NewsToday Video Guide"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:50
+msgid "ILoveWP.com Logo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:58
+msgid "Thank you for installing Newstoday"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:68
+msgid "Newstoday Documentation and Support"
+msgstr ""
+
+#. Theme name and link to WordPress.org Support forum for the theme
+#: ilovewp-admin/ilovewp-theme-settings.php:73
+#, php-format
+msgid ""
+"Support for %1$s Theme is provided in the official WordPress.org community "
+"support forums. "
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:76
+msgid "View Newstoday Documentation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:76
+msgid "Go to Newstoday Support Forum"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:82
+#: ilovewp-admin/ilovewp-theme-settings.php:86
+msgid "Newstoday Theme Video Tutorial"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:85
+msgid "Click the image below to open the video guide in a new browser tab."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:92
+msgid "Contact the Developer"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:94
+msgid "You can send a direct message to the developer of the theme."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:95
+msgid "Contact the developer"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:103
+msgid "Help me with a review or a donation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:105
+msgid ""
+"Please leave a review for Newstoday on the WordPress.org website or make a "
+"donation. It helps me continue providing updates and support for this theme."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:107
+msgid "Write a Review for Newstoday"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:107
+msgid "Make a Donation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:114
+msgid "WordPress Themes and Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:117
+msgid ""
+"Newstoday is just one of the many free WordPress themes that I have "
+"developed. "
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:118
+msgid "See more free WordPress Themes"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:120
+msgid ""
+"I have a great collection of guides and articles on how to create WordPress "
+"websites for: Photographers, Hotels, Schools, Universities, Churches, "
+"Museums, Doctors, Hospitals, Lawyers and other types of organizations and "
+"businesses."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:121
+msgid "Browse the WordPress Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:129
+msgid "Looking for a new web hosting provider?"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:132
+msgid ""
+"I have a small list of handpicked hosting providers that have a great "
+"reputation in the WordPress community."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:133
+msgid "Popular WordPress Hosting Providers"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:19
+msgid "Footer: Column 1"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:28
+msgid "Footer: Column 2"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:37
+msgid "Footer: Column 3"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:46
+msgid "Ads: Header"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:48
+msgid ""
+"This area will appear to the right of the logo. A good place to add a banner."
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:56
+msgid "Ads: Homepage - Under Featured Posts"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:58
+msgid ""
+"This area will appear on the homepage under the Featured Posts section. A "
+"good place to add a banner."
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Builder Template"
+msgstr ""
+
+#: customizer/sections/background.php:10
+msgid "Site Background"
+msgstr ""
+
+#: customizer/sections/background.php:14
+msgid "Background Color"
+msgstr ""
+
+#: customizer/sections/footer.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/sections/general.php:8
+msgid "Left"
+msgstr ""
+
+#: customizer/sections/general.php:9
+msgid "Right"
+msgstr ""
+
+#: customizer/sections/general.php:13
+msgid "Atlanta"
+msgstr ""
+
+#: customizer/sections/general.php:14
+msgid "Atletico"
+msgstr ""
+
+#: customizer/sections/general.php:15
+msgid "Bayern"
+msgstr ""
+
+#: customizer/sections/general.php:16
+msgid "Dortmund"
+msgstr ""
+
+#: customizer/sections/general.php:17
+msgid "Lakers"
+msgstr ""
+
+#: customizer/sections/general.php:18
+msgid "Oakland"
+msgstr ""
+
+#: customizer/sections/general.php:19
+msgid "Portland"
+msgstr ""
+
+#: customizer/sections/general.php:20
+msgid "Real"
+msgstr ""
+
+#: customizer/sections/general.php:24
+msgid "Theme Settings"
+msgstr ""
+
+#: customizer/sections/general.php:34
+msgid "Theme Color Palette"
+msgstr ""
+
+#: customizer/sections/general.php:46
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: customizer/sections/general.php:58
+msgid "Display Featured Posts on Homepage"
+msgstr ""
+
+#: customizer/sections/general.php:69
+msgid "Category for Featured Posts"
+msgstr ""
+
+#. link to categories
+#: customizer/sections/general.php:70
+#, php-format
+msgid "This list is populated with <a href=\"%1$s\">Categories</a>."
+msgstr ""
+
+#: customizer/sections/general.php:82
+msgid "Tag for Featured Posts"
+msgstr ""
+
+#. link to tags
+#: customizer/sections/general.php:83
+#, php-format
+msgid ""
+"This list is populated with <a href=\"%1$s\">Tags</a>. If you choose a "
+"Featured Tag, the category option above will be ignored."
+msgstr ""
+
+#: customizer/sections/general.php:95
+msgid "Display post author on archive pages."
+msgstr ""
+
+#: customizer/sections/general.php:106
+msgid "Display post date on archive pages."
+msgstr ""
+
+#: customizer/sections/general.php:117
+msgid "Display post category on archive pages."
+msgstr ""
+
+#: customizer/sections/general.php:128
+msgid "Display post author bio on post pages."
+msgstr ""
+
+#: customizer/sections/general.php:139
+msgid "Display Featured Images on Post pages"
+msgstr ""
+
+#: customizer/sections/general.php:150
+msgid "Display link to Category RSS Feed on Category Pages"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-review.php:54
+#: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:42
+msgid "Newstoday"
+msgstr ""
+
+#. %1$s current user display name.
+#: ilovewp-admin/admin-notices/ilovewp-notice-review.php:62
+#, php-format
+msgid ""
+"Dear %1$s! I hope you are happy with everything that the %2$s has to offer. "
+"%3$sIf you can spare a moment, please consider adding a rating for %4$s on "
+"WordPress.org. %3$sIt helps me continue providing updates and support for "
+"this theme."
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-review.php:74
+msgid "Add a Rating for Newstoday"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-review.php:75
+msgid "Hide this notice"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-review.php:76
+msgid "Theme Help"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:45
+msgid "Thank you for choosing Newstoday Theme!"
+msgstr ""
+
+#. %1$s: theme name, %2$s link
+#: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:49
+#, php-format
+msgid ""
+"To take advantage of everything that this theme can offer, please take a "
+"look at the <a href=\"%2$s\">Get Started with %1$s</a> page."
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:54
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:58
+#, php-format
+msgid "%s Video Guide"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notices.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notices.php:73
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Name of the theme
+msgid "NewsToday"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"NewsToday is a free magazine-style WordPress theme for news websites, sports "
+"websites and blogs. Some of the main features: 1. A special Featured Posts "
+"area on the homepage lets you highlight 4 of your main posts (from a "
+"category or marked by a tag); 2. Eight (8) built-in color styles that can be "
+"switched with a single click; 3. The sidebar can be displayed on the left or "
+"right side; 4. Special widgetized areas for advertising: in the header, "
+"sidebar and under the featured posts; 5. Includes a Full Width custom page "
+"template and a Page Builder page template (for Elementor, Beaver Builder, "
+"Divi, Visual Composer, etc.) Visit the theme's official page to see a full "
+"preview of the theme's design and features: https://www.ilovewp."
+"com/themes/newstoday/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.ilovewp.com/themes/newstoday/"
+msgstr ""
+
+#. Author of the theme
+msgid "ilovewpcom"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.ilovewp.com/"
+msgstr ""

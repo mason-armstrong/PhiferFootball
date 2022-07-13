@@ -1,0 +1,27 @@
+{
+  "name": "gilbitron/wp-social-preview",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Gilbert Pellegrom",
+      "email": "gilbert@pellegrom.me"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "intervention/image": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dev7studios\\WPSocialPreview\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}

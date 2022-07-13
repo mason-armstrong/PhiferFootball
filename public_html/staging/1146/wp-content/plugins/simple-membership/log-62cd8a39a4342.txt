@@ -1,0 +1,9 @@
+[2022/07/12 10:34:43] - FAILURE: swpm_handle_wp_user_registration() - SWPM member account with this username already exists! No new account will be created for this user.
+[2022/07/12 10:34:44] - SUCCESS: Member registration complete email sent to: mason.armstrong29@gmail.com. From email address value used: Phifer Football News <hello@phiferfootball.com>
+[2022/07/12 10:34:44] - SUCCESS: Auto login after registration feature is enabled in settings. Performing auto login for user: MArm
+[2022/07/12 10:34:45] - SUCCESS: Handling auto login request...
+[2022/07/12 10:34:45] - SUCCESS: Auto login request completed for: MArm
+[2022/07/12 10:35:06] - SUCCESS: Updating the account status value of member (1) to: active
+[2022/07/12 10:35:06] - SUCCESS: Member registration complete email sent to: mason.armstrong29@gmail.com. From email address value used: Phifer Football News <hello@phiferfootball.com>
+[2022/07/12 10:35:07] - SUCCESS: Admin notification email sent to: phifertanner1@gmail.com
+[2022/07/12 10:35:07] - SUCCESS: Admin notification email sent to: masonarmdeveloper@gmail.com

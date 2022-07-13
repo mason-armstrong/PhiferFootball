@@ -1,0 +1,12 @@
+[2022/07/12 09:50:33] - SUCCESS: wp_authenticate action. Empty username provided. Adding set_current_username hook to catch potential login attempt.
+[2022/07/12 09:52:30] - SUCCESS: wp_authenticate action. Empty username provided. Adding set_current_username hook to catch potential login attempt.
+[2022/07/12 10:06:04] - SUCCESS: wp_authenticate action. Empty username provided. Adding set_current_username hook to catch potential login attempt.
+[2022/07/12 10:34:45] - SUCCESS: SwpmAuth::login()
+[2022/07/12 10:34:45] - SUCCESS: Authentication request - Username: MArm
+[2022/07/12 10:35:14] - SUCCESS: Authentication request - Username: MArm
+[2022/07/12 10:35:14] - SUCCESS: Authentication successful for username: MArm. Executing swpm_login action hook.
+[2022/07/12 10:35:14] - SUCCESS: Trying wp_signon() with username: MArm
+[2022/07/12 10:35:14] - SUCCESS: wp_authenticate action. User with username: MArm is already logged in.
+[2022/07/12 10:35:14] - SUCCESS: wp_login hook triggered. Username: MArm
+[2022/07/12 10:35:14] - SUCCESS: Setting current WP user to: MArm
+[2022/07/12 10:35:14] - SUCCESS: Triggering swpm_after_login hook.

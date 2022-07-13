@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#news-vibe-ui-tabs").tabs()});

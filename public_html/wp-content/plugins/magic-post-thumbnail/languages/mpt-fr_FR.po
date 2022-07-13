@@ -1,0 +1,1547 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Post Thumbnail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-08 00:07+0200\n"
+"PO-Revision-Date: 2020-05-08 00:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: g.alex17@gmail.com\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/banks.php:10
+msgid "Image banks"
+msgstr "Banques d'image"
+
+#: inc/admin/banks.php:23
+msgid "Image bank"
+msgstr "Banque d'image"
+
+#: inc/admin/banks.php:27
+msgid "Choose which database you want to search for pictures"
+msgstr "Choisissez dans quelle banque d'images vous voulez rechercher"
+
+#: inc/admin/banks.php:31
+msgid "Google Image (Scraping)"
+msgstr ""
+
+#: inc/admin/banks.php:32
+msgid "Google Image (API)"
+msgstr ""
+
+#: inc/admin/banks.php:33
+msgid "Flickr"
+msgstr ""
+
+#: inc/admin/banks.php:34
+msgid "Pixabay"
+msgstr ""
+
+#: inc/admin/banks.php:35
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/banks.php:36
+msgid "Shutterstock"
+msgstr ""
+
+#: inc/admin/banks.php:37
+msgid "Getty Images"
+msgstr ""
+
+#: inc/admin/banks.php:38
+msgid "Unsplash"
+msgstr ""
+
+#: inc/admin/bulk_generation.php:10 magic_post_thumbnail.php:1022
+msgid "Bulk Generation"
+msgstr "Génération de masse"
+
+#: inc/admin/bulk_generation.php:22
+msgid "Progress"
+msgstr "Progression"
+
+#: inc/admin/bulk_generation.php:35 inc/admin/main.php:116
+#: inc/admin/main.php:125 inc/admin/main.php:169 inc/admin/main.php:205
+msgid "Title"
+msgstr "Titre"
+
+#: inc/admin/bulk_generation.php:36
+msgid "Status"
+msgstr "Statut"
+
+#: inc/admin/bulk_generation.php:37
+msgid "Links"
+msgstr "Liens"
+
+#: inc/admin/bulk_generation.php:38 inc/admin/shutterstock.php:45
+msgid "Image"
+msgstr "Image"
+
+#: inc/admin/bulk_generation.php:56
+msgid "Waiting for generation"
+msgstr "Attente la génération"
+
+#: inc/admin/bulk_generation.php:58
+msgid "Successful"
+msgstr "Réussite"
+
+#: inc/admin/bulk_generation.php:59
+msgid "Failed"
+msgstr "Echec"
+
+#: inc/admin/bulk_generation.php:60
+msgid "Error"
+msgstr "Erreur"
+
+#: inc/admin/bulk_generation.php:61
+msgid "Image Already Exists"
+msgstr "L'image existe déjà"
+
+#: inc/admin/bulk_generation.php:62
+msgid "No image rewriting into post content"
+msgstr ""
+
+#: inc/admin/bulk_generation.php:68
+msgid "Edit"
+msgstr ""
+
+#: inc/admin/bulk_generation.php:69
+msgid "View"
+msgstr ""
+
+#: inc/admin/bulk_generation.php:83
+msgid "Successful Generation"
+msgstr "Génération réussie"
+
+#: inc/admin/cron.php:10 magic_post_thumbnail.php:1018
+msgid "Cron"
+msgstr ""
+
+#: inc/admin/cron.php:24
+msgid "Enable cron"
+msgstr "Activer le cron"
+
+#: inc/admin/cron.php:27 inc/admin/proxy.php:29 inc/admin/shutterstock.php:239
+msgid "Disable"
+msgstr "Désactiver"
+
+#: inc/admin/cron.php:28 inc/admin/proxy.php:30 inc/admin/shutterstock.php:238
+msgid "Enable"
+msgstr "Activer"
+
+#: inc/admin/cron.php:37 inc/admin/main.php:51
+msgid "Relevant post type"
+msgstr "Type de contenus concernés"
+
+#: inc/admin/cron.php:59
+msgid "Interval"
+msgstr "Intervalle"
+
+#: inc/admin/cron.php:63
+msgid "Every"
+msgstr "Tous les"
+
+#: inc/admin/cron.php:166
+msgid "Minutes"
+msgstr "Minutes"
+
+#: inc/admin/cron.php:167 inc/admin/cron.php:221
+msgid "Hours"
+msgstr "Heures"
+
+#: inc/admin/cron.php:168 inc/admin/cron.php:222
+msgid "Days"
+msgstr "Jours"
+
+#: inc/admin/cron.php:182
+msgid "Posts date"
+msgstr "Date de publication"
+
+#: inc/admin/cron.php:193
+msgid "Posts published 12 hours ago and later"
+msgstr "Publications publiées il y a 12 heures et plus tard"
+
+#: inc/admin/cron.php:193 inc/admin/cron.php:194 inc/admin/cron.php:195
+msgid "From"
+msgstr "A partir de"
+
+#: inc/admin/cron.php:194
+msgid "Posts published 24 hours ago and later"
+msgstr "Publications publiées il y a 24 heures et plus tard"
+
+#: inc/admin/cron.php:195
+msgid "Posts published 7 days ago and later "
+msgstr "Publications publiées il y a 7 jours et plus tard "
+
+#: inc/admin/cron.php:197
+msgid "All Posts"
+msgstr ""
+
+#: inc/admin/cron.php:223
+msgid "ago and newer"
+msgstr ""
+
+#: inc/admin/flickr.php:10 inc/admin/google_image.php:216
+#: inc/admin/google_scraping.php:155
+msgid "Rights"
+msgstr "Droits d'utilisation"
+
+#: inc/admin/flickr.php:14
+msgid ""
+"Choose which licence works for pictures. Licences chosen are cumulative."
+msgstr ""
+"Choisissez quelles licences s'appliquent pour les images. Les licences "
+"choisies se cumulent."
+
+#: inc/admin/flickr.php:15
+msgid "If none of these options are chosen, every licences will be used."
+msgstr ""
+"Si aucune des options n'est choisie, toutes les licences seront utilisées."
+
+#: inc/admin/flickr.php:19
+msgid "All Rights Reserved"
+msgstr "Tous Droits Réservés"
+
+#: inc/admin/flickr.php:20
+msgid ""
+"Attribution-NonCommercial-ShareAlike License - <i><a href=\"http://"
+"creativecommons.org/licenses/by-nc-sa/2.0/\" target=\"_blank\">More detail</"
+"a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:21
+msgid ""
+"Attribution-NonCommercial License - <i><a href=\"http://creativecommons.org/"
+"licenses/by-nc/2.0/\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:22
+msgid ""
+"Attribution-NonCommercial-NoDerivs License - <i><a href=\"http://"
+"creativecommons.org/licenses/by-nc-nd/2.0/\" target=\"_blank\">More detail</"
+"a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:23
+msgid ""
+"Attribution License - <i><a href=\"http://creativecommons.org/licenses/"
+"by/2.0/\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:24
+msgid ""
+"Attribution License - <i><a href=\"http://creativecommons.org/licenses/by-"
+"sa/2.0/\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:25
+msgid ""
+"Attribution-NoDerivs License - <i><a href=\"http://creativecommons.org/"
+"licenses/by-nd/2.0/\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:26
+msgid ""
+"No known copyright restrictions - <i><a href=\"http://flickr.com/commons/"
+"usage/\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:27
+msgid ""
+"United States Government Work - <i><a href=\"http://www.usa.gov/copyright."
+"shtml\" target=\"_blank\">More detail</a></i>"
+msgstr ""
+
+#: inc/admin/flickr.php:48 inc/admin/google_image.php:275
+#: inc/admin/google_scraping.php:246 inc/admin/pixabay.php:43
+msgid "Image Type"
+msgstr "Type d'image"
+
+#: inc/admin/flickr.php:56 inc/admin/pixabay.php:51 inc/admin/pixabay.php:123
+msgid "-- All --"
+msgstr "-- Tout --"
+
+#: inc/admin/flickr.php:57 inc/admin/google_image.php:285
+#: inc/admin/google_scraping.php:256 inc/admin/pixabay.php:52
+msgid "Photo"
+msgstr "Photo"
+
+#: inc/admin/flickr.php:58 inc/admin/pixabay.php:53
+msgid "Screenshot"
+msgstr "Capture d'écran"
+
+#: inc/admin/flickr.php:59 inc/admin/pixabay.php:54
+msgid "Other"
+msgstr "Autre"
+
+#: inc/admin/flickr.php:60
+msgid "Photo and screenshot"
+msgstr "Photo et capture d'écran"
+
+#: inc/admin/flickr.php:61
+msgid "Screenshot and \"other\""
+msgstr "Captures d'écran et \"autre\""
+
+#: inc/admin/flickr.php:62
+msgid "Photo and \"other\""
+msgstr "Photo et \"autre\""
+
+#: inc/admin/gettyimages.php:12
+msgid ""
+"<b>It's required</b> to provide your own <b>username</b> and <b>api key</b>. "
+"You can register in shutterstock website <a target=\"_blank\" href=\"https://"
+"shutterstock.com/en/accounts/register/\">here</a> and get api username/key "
+"<a target=\"_blank\" href=\"https://shutterstock.com/api/docs/\">here</a>"
+msgstr ""
+"A partir de maintenant, <b>vous devez</b> renseigner votre <b>nom "
+"d'utilisateur</b> et <b>clef api</b>. Vous pouvez vous enregistrer sur "
+"Pixabay <a target=\"_blank\" href=\"https://pixabay.com/en/accounts/register/"
+"\">içi</a> et récupérer votre nom d'utilisateur/clef api <a target=\"_blank"
+"\" href=\"https://pixabay.com/api/docs/\">içi</a>"
+
+#: inc/admin/gettyimages.php:19
+msgid "API Key"
+msgstr ""
+
+#: inc/admin/google_image.php:11
+msgid ""
+"From now on, <b>it's required</b> to provide your own Google <i>Search "
+"engine ID</i> and <b>API Key</b>. You must follow the process <a target="
+"\"_blank\" href=\"https://developers.google.com/custom-search/json-api/v1/"
+"overview#prerequisites\">here</a>. You must get both valid <strong>Search "
+"engine ID</strong> and <strong>API Key</strong>"
+msgstr ""
+"A partir de maintenant, <b>vous devez</b> renseigner votre <b>Identifiant</"
+"b> et <b>clef API</b> de Google. Vous devez suivre la procédure <a target="
+"\"_blank\" href=\"https://developers.google.com/custom-search/json-api/v1/"
+"overview#prerequisites/\">içi</a>. Vous devez posséder un "
+"<strong>Identifiant</strong> valide et une <strong>clef API</strong> valide"
+
+#: inc/admin/google_image.php:18
+msgid "Custom Search Engine ID"
+msgstr ""
+
+#: inc/admin/google_image.php:26
+msgid "Google API Key"
+msgstr ""
+
+#: inc/admin/google_image.php:41 inc/admin/google_scraping.php:11
+#: inc/admin/pixabay.php:68 inc/admin/shutterstock.php:60
+msgid "Choose the language"
+msgstr "Choisissez la langue"
+
+#: inc/admin/google_image.php:48 inc/admin/google_scraping.php:18
+msgid "English (default)"
+msgstr "Anglais (par defaut)"
+
+#: inc/admin/google_image.php:49 inc/admin/google_image.php:50
+#: inc/admin/google_scraping.php:19 inc/admin/google_scraping.php:20
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: inc/admin/google_image.php:51 inc/admin/google_scraping.php:21
+msgid "Albanian"
+msgstr "Albanais"
+
+#: inc/admin/google_image.php:52 inc/admin/google_scraping.php:22
+msgid "Amharic"
+msgstr "Amharique"
+
+#: inc/admin/google_image.php:53 inc/admin/google_scraping.php:23
+msgid "Arabic"
+msgstr "Arabe"
+
+#: inc/admin/google_image.php:54 inc/admin/google_scraping.php:24
+msgid "Azerbaijani"
+msgstr "Azerbaïdjanais"
+
+#: inc/admin/google_image.php:55 inc/admin/google_scraping.php:25
+msgid "Basque"
+msgstr "Basque"
+
+#: inc/admin/google_image.php:56 inc/admin/google_scraping.php:26
+msgid "Belarusian"
+msgstr "Biélorusse"
+
+#: inc/admin/google_image.php:57 inc/admin/google_scraping.php:27
+msgid "Bengali"
+msgstr "Bengali"
+
+#: inc/admin/google_image.php:58 inc/admin/google_scraping.php:28
+msgid "Bihari"
+msgstr "Bihari"
+
+#: inc/admin/google_image.php:59 inc/admin/google_scraping.php:29
+msgid "Bosnian"
+msgstr "Bosnie"
+
+#: inc/admin/google_image.php:60 inc/admin/google_scraping.php:30
+#: inc/admin/pixabay.php:95
+msgid "Bulgarian"
+msgstr "Bulgare"
+
+#: inc/admin/google_image.php:61 inc/admin/google_scraping.php:31
+msgid "Catalan"
+msgstr "Catalan"
+
+#: inc/admin/google_image.php:62 inc/admin/google_scraping.php:32
+msgid "Chinese (Simplified)"
+msgstr "Chinois (Simplifié)"
+
+#: inc/admin/google_image.php:63 inc/admin/google_scraping.php:33
+msgid "Chinese (Traditional)"
+msgstr "Chinois (traditionnel)"
+
+#: inc/admin/google_image.php:64 inc/admin/google_scraping.php:34
+msgid "Croatian"
+msgstr "Croate"
+
+#: inc/admin/google_image.php:65 inc/admin/google_scraping.php:35
+#: inc/admin/pixabay.php:75 inc/admin/shutterstock.php:69
+msgid "Czech"
+msgstr "Tchèque"
+
+#: inc/admin/google_image.php:66 inc/admin/google_scraping.php:36
+#: inc/admin/pixabay.php:76 inc/admin/shutterstock.php:70
+msgid "Danish"
+msgstr "Danois"
+
+#: inc/admin/google_image.php:67 inc/admin/google_scraping.php:37
+#: inc/admin/pixabay.php:84
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: inc/admin/google_image.php:68 inc/admin/google_scraping.php:38
+#: inc/admin/pixabay.php:78 inc/admin/shutterstock.php:68
+msgid "English"
+msgstr "Anglais"
+
+#: inc/admin/google_image.php:69 inc/admin/google_scraping.php:39
+msgid "Esperanto"
+msgstr "Espéranto"
+
+#: inc/admin/google_image.php:70 inc/admin/google_scraping.php:40
+msgid "Estonian"
+msgstr "Estonien"
+
+#: inc/admin/google_image.php:71 inc/admin/google_scraping.php:41
+msgid "Faroese"
+msgstr "Féroïen"
+
+#: inc/admin/google_image.php:72 inc/admin/google_scraping.php:42
+#: inc/admin/pixabay.php:90 inc/admin/shutterstock.php:73
+msgid "Finnish"
+msgstr "Finlandais"
+
+#: inc/admin/google_image.php:73 inc/admin/google_scraping.php:43
+#: inc/admin/pixabay.php:80 inc/admin/shutterstock.php:74
+msgid "French"
+msgstr "Francais"
+
+#: inc/admin/google_image.php:74 inc/admin/google_scraping.php:44
+msgid "Frisian"
+msgstr "Frison"
+
+#: inc/admin/google_image.php:75 inc/admin/google_scraping.php:45
+msgid "Galician"
+msgstr "Galicienne"
+
+#: inc/admin/google_image.php:76 inc/admin/google_scraping.php:46
+msgid "Georgian"
+msgstr "Géorgien"
+
+#: inc/admin/google_image.php:77 inc/admin/google_scraping.php:47
+#: inc/admin/pixabay.php:77 inc/admin/shutterstock.php:71
+msgid "German"
+msgstr "Allemand"
+
+#: inc/admin/google_image.php:78 inc/admin/google_scraping.php:48
+#: inc/admin/pixabay.php:97
+msgid "Greek"
+msgstr "Grecque"
+
+#: inc/admin/google_image.php:79 inc/admin/google_scraping.php:49
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: inc/admin/google_image.php:80 inc/admin/google_scraping.php:50
+msgid "Hebrew"
+msgstr "Hébreu"
+
+#: inc/admin/google_image.php:81 inc/admin/google_scraping.php:51
+msgid "Hindi"
+msgstr "Hindi"
+
+#: inc/admin/google_image.php:82 inc/admin/google_scraping.php:52
+#: inc/admin/pixabay.php:83 inc/admin/shutterstock.php:75
+msgid "Hungarian"
+msgstr "Hongroise"
+
+#: inc/admin/google_image.php:83 inc/admin/google_scraping.php:53
+msgid "Icelandic"
+msgstr "Islandais"
+
+#: inc/admin/google_image.php:84 inc/admin/google_scraping.php:54
+#: inc/admin/pixabay.php:81
+msgid "Indonesian"
+msgstr "Indonesien"
+
+#: inc/admin/google_image.php:85 inc/admin/google_scraping.php:55
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: inc/admin/google_image.php:86 inc/admin/google_scraping.php:56
+msgid "Irish"
+msgstr "Irlandais"
+
+#: inc/admin/google_image.php:87 inc/admin/google_scraping.php:57
+#: inc/admin/pixabay.php:82 inc/admin/shutterstock.php:76
+msgid "Italian"
+msgstr "Italien"
+
+#: inc/admin/google_image.php:88 inc/admin/google_scraping.php:58
+#: inc/admin/pixabay.php:98 inc/admin/shutterstock.php:77
+msgid "Japanese"
+msgstr "Japonais"
+
+#: inc/admin/google_image.php:89 inc/admin/google_scraping.php:59
+msgid "Javanese"
+msgstr "Javanais"
+
+#: inc/admin/google_image.php:90 inc/admin/google_scraping.php:60
+msgid "Kannada"
+msgstr "Kannada"
+
+#: inc/admin/google_image.php:91 inc/admin/google_scraping.php:61
+#: inc/admin/pixabay.php:99 inc/admin/shutterstock.php:78
+msgid "Korean"
+msgstr "Coréen"
+
+#: inc/admin/google_image.php:92 inc/admin/google_scraping.php:62
+msgid "Latin"
+msgstr "Latin"
+
+#: inc/admin/google_image.php:93 inc/admin/google_scraping.php:63
+msgid "Latvian"
+msgstr "Letton"
+
+#: inc/admin/google_image.php:94 inc/admin/google_scraping.php:64
+msgid "Lithuanian"
+msgstr "Lituanien"
+
+#: inc/admin/google_image.php:95 inc/admin/google_scraping.php:65
+msgid "Macedonian"
+msgstr "Macédonien"
+
+#: inc/admin/google_image.php:96 inc/admin/google_scraping.php:66
+msgid "Malay"
+msgstr "Malais"
+
+#: inc/admin/google_image.php:97 inc/admin/google_scraping.php:67
+msgid "Malayam"
+msgstr "Malayam"
+
+#: inc/admin/google_image.php:98 inc/admin/google_scraping.php:68
+msgid "Maltese"
+msgstr "Maltais"
+
+#: inc/admin/google_image.php:99 inc/admin/google_scraping.php:69
+msgid "Marathi"
+msgstr "Marathi"
+
+#: inc/admin/google_image.php:100 inc/admin/google_scraping.php:70
+msgid "Nepali"
+msgstr "Népalais"
+
+#: inc/admin/google_image.php:101 inc/admin/google_scraping.php:71
+#: inc/admin/pixabay.php:85 inc/admin/shutterstock.php:79
+msgid "Norwegian"
+msgstr "Norvégien"
+
+#: inc/admin/google_image.php:102 inc/admin/google_scraping.php:72
+msgid "Norwegian (Nynorsk)"
+msgstr "Norvégien (Nynorsk)"
+
+#: inc/admin/google_image.php:103 inc/admin/google_scraping.php:73
+msgid "Occitan"
+msgstr "Occitan"
+
+#: inc/admin/google_image.php:104 inc/admin/google_scraping.php:74
+msgid "Persian"
+msgstr "Persan"
+
+#: inc/admin/google_image.php:105 inc/admin/google_scraping.php:75
+#: inc/admin/pixabay.php:86 inc/admin/shutterstock.php:80
+msgid "Polish"
+msgstr "Polonais"
+
+#: inc/admin/google_image.php:106 inc/admin/google_scraping.php:76
+msgid "Portuguese (Brazil)"
+msgstr "Portugais (Brésil)"
+
+#: inc/admin/google_image.php:107 inc/admin/google_scraping.php:77
+msgid "Portuguese (Portugal)"
+msgstr "Portugais (Portugal)"
+
+#: inc/admin/google_image.php:108 inc/admin/google_scraping.php:78
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: inc/admin/google_image.php:109 inc/admin/google_scraping.php:79
+#: inc/admin/pixabay.php:88
+msgid "Romanian"
+msgstr "Roumain"
+
+#: inc/admin/google_image.php:110 inc/admin/google_scraping.php:80
+#: inc/admin/pixabay.php:96 inc/admin/shutterstock.php:82
+msgid "Russian"
+msgstr "Russe"
+
+#: inc/admin/google_image.php:111 inc/admin/google_scraping.php:81
+msgid "Scots Gaelic"
+msgstr "Gaélique écossais"
+
+#: inc/admin/google_image.php:112 inc/admin/google_scraping.php:82
+msgid "Serbian"
+msgstr "Serbe"
+
+#: inc/admin/google_image.php:113 inc/admin/google_scraping.php:83
+msgid "Sinhalese"
+msgstr "Cinghalais"
+
+#: inc/admin/google_image.php:114 inc/admin/google_scraping.php:84
+#: inc/admin/pixabay.php:89
+msgid "Slovak"
+msgstr "Slovaque"
+
+#: inc/admin/google_image.php:115 inc/admin/google_scraping.php:85
+msgid "Slovenian"
+msgstr "Slovène"
+
+#: inc/admin/google_image.php:116 inc/admin/google_scraping.php:86
+#: inc/admin/pixabay.php:79 inc/admin/shutterstock.php:72
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: inc/admin/google_image.php:117 inc/admin/google_scraping.php:87
+msgid "Sudanese"
+msgstr "Soudanais"
+
+#: inc/admin/google_image.php:118 inc/admin/google_scraping.php:88
+msgid "Swahili"
+msgstr "Swahili"
+
+#: inc/admin/google_image.php:119 inc/admin/google_scraping.php:89
+#: inc/admin/pixabay.php:91 inc/admin/shutterstock.php:83
+msgid "Swedish"
+msgstr "Suédois"
+
+#: inc/admin/google_image.php:120 inc/admin/google_scraping.php:90
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: inc/admin/google_image.php:121 inc/admin/google_scraping.php:91
+msgid "Tamil"
+msgstr "Tamil"
+
+#: inc/admin/google_image.php:122 inc/admin/google_scraping.php:92
+msgid "Telugu"
+msgstr "Telugu"
+
+#: inc/admin/google_image.php:123 inc/admin/google_scraping.php:93
+#: inc/admin/pixabay.php:94 inc/admin/shutterstock.php:84
+msgid "Thai"
+msgstr "Thaïlandais"
+
+#: inc/admin/google_image.php:124 inc/admin/google_scraping.php:94
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#: inc/admin/google_image.php:125 inc/admin/google_scraping.php:95
+#: inc/admin/pixabay.php:92 inc/admin/shutterstock.php:85
+msgid "Turkish"
+msgstr "Turc"
+
+#: inc/admin/google_image.php:126 inc/admin/google_scraping.php:96
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: inc/admin/google_image.php:127 inc/admin/google_scraping.php:97
+msgid "Urdu"
+msgstr "Urdu"
+
+#: inc/admin/google_image.php:128 inc/admin/google_scraping.php:98
+msgid "Uzbek"
+msgstr "Ouzbek"
+
+#: inc/admin/google_image.php:129 inc/admin/google_scraping.php:99
+#: inc/admin/pixabay.php:93
+msgid "Vietnamese"
+msgstr "Vietnamien"
+
+#: inc/admin/google_image.php:130 inc/admin/google_scraping.php:100
+msgid "Welsh"
+msgstr "Gallois"
+
+#: inc/admin/google_image.php:131 inc/admin/google_scraping.php:101
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: inc/admin/google_image.php:132 inc/admin/google_scraping.php:102
+msgid "Zulu"
+msgstr "Zoulou"
+
+#: inc/admin/google_image.php:147 inc/admin/google_scraping.php:117
+msgid "Specified color predominantly"
+msgstr "Couleur principale"
+
+#: inc/admin/google_image.php:155 inc/admin/google_image.php:193
+#: inc/admin/google_image.php:253 inc/admin/google_image.php:283
+#: inc/admin/google_scraping.php:125 inc/admin/google_scraping.php:192
+#: inc/admin/google_scraping.php:226 inc/admin/google_scraping.php:254
+msgid "-- Default --"
+msgstr "- Par défaut -"
+
+#: inc/admin/google_image.php:156 inc/admin/google_scraping.php:126
+msgid "Black"
+msgstr "Noir"
+
+#: inc/admin/google_image.php:157 inc/admin/google_scraping.php:127
+msgid "Blue"
+msgstr "Bleu"
+
+#: inc/admin/google_image.php:158 inc/admin/google_scraping.php:128
+msgid "Brown"
+msgstr "Marron"
+
+#: inc/admin/google_image.php:159 inc/admin/google_scraping.php:129
+msgid "Gray"
+msgstr "Gris"
+
+#: inc/admin/google_image.php:160 inc/admin/google_scraping.php:130
+msgid "Green"
+msgstr "Vert"
+
+#: inc/admin/google_image.php:161 inc/admin/google_scraping.php:131
+msgid "Pink"
+msgstr "Rose"
+
+#: inc/admin/google_image.php:162 inc/admin/google_scraping.php:132
+msgid "Purple"
+msgstr "Violet"
+
+#: inc/admin/google_image.php:163 inc/admin/google_scraping.php:133
+msgid "Teal"
+msgstr "Bleu-vert"
+
+#: inc/admin/google_image.php:164 inc/admin/google_scraping.php:134
+msgid "White"
+msgstr "Blanc"
+
+#: inc/admin/google_image.php:165 inc/admin/google_scraping.php:135
+msgid "Yellow"
+msgstr "Jaune"
+
+#: inc/admin/google_image.php:177 inc/admin/google_scraping.php:147
+msgid "Experimental"
+msgstr "Expérimental"
+
+#: inc/admin/google_image.php:178 inc/admin/google_scraping.php:148
+msgid ""
+"Restricts results to images that contain a specified color predominantly"
+msgstr ""
+"Limite les résultats aux images qui contiennent une couleur prédominante"
+
+#: inc/admin/google_image.php:185
+msgid "Filetype"
+msgstr "Type de fichier"
+
+#: inc/admin/google_image.php:194
+msgid "jpg"
+msgstr ""
+
+#: inc/admin/google_image.php:195
+msgid "png"
+msgstr ""
+
+#: inc/admin/google_image.php:196
+msgid "gif"
+msgstr ""
+
+#: inc/admin/google_image.php:197
+msgid "bmp"
+msgstr ""
+
+#: inc/admin/google_image.php:209
+msgid "Restricts image search to one of the following specific file types"
+msgstr "Restreint la recherche d'image à un seul type d'image"
+
+#: inc/admin/google_image.php:220 inc/admin/google_scraping.php:159
+msgid ""
+"Choose these options can reduce relevance of results, but permit to use free-"
+"to-use images."
+msgstr ""
+"Ces options peuvent réduire la pertinence des résultats, mais permet "
+"d'utiliser des images libre de droit."
+
+#: inc/admin/google_image.php:224
+msgid ""
+"Publicdomain - <i>restricts search results to images with the publicdomain "
+"label.</i>"
+msgstr ""
+
+#: inc/admin/google_image.php:225
+msgid ""
+"Attribute - <i>restricts search results to images with the attribute label."
+msgstr ""
+
+#: inc/admin/google_image.php:226
+msgid ""
+"Sharealike - <i>restricts search results to images with the sharealike label."
+msgstr ""
+
+#: inc/admin/google_image.php:227
+msgid ""
+"Noncommercial - <i>restricts search results to images with the noncomercial "
+"label."
+msgstr ""
+
+#: inc/admin/google_image.php:228
+msgid ""
+"Nonderived - <i>restricts search results to images with the nonderived label."
+"</i>"
+msgstr ""
+
+#: inc/admin/google_image.php:245 inc/admin/google_scraping.php:184
+msgid "Image size"
+msgstr "T'aille d'image"
+
+#: inc/admin/google_image.php:254 inc/admin/google_scraping.php:193
+msgid "icon"
+msgstr "icône"
+
+#: inc/admin/google_image.php:255
+msgid "small"
+msgstr "petite"
+
+#: inc/admin/google_image.php:256 inc/admin/google_scraping.php:194
+msgid "medium"
+msgstr "moyenne"
+
+#: inc/admin/google_image.php:257 inc/admin/google_scraping.php:195
+msgid "large"
+msgstr "grand"
+
+#: inc/admin/google_image.php:258
+msgid "xlarge"
+msgstr "très grand"
+
+#: inc/admin/google_image.php:259
+msgid "xxlarge"
+msgstr "très très grand"
+
+#: inc/admin/google_image.php:260
+msgid "huge"
+msgstr "énorme"
+
+#: inc/admin/google_image.php:284 inc/admin/google_scraping.php:255
+msgid "Face"
+msgstr "Visage"
+
+#: inc/admin/google_image.php:286 inc/admin/google_scraping.php:257
+msgid "Clipart"
+msgstr ""
+
+#: inc/admin/google_image.php:287 inc/admin/google_scraping.php:258
+msgid "Lineart"
+msgstr ""
+
+#: inc/admin/google_image.php:301 inc/admin/google_scraping.php:273
+msgid "Safety level"
+msgstr "Filtre adulte"
+
+#: inc/admin/google_image.php:309 inc/admin/google_scraping.php:281
+msgid "Moderate (default)"
+msgstr "Modéré (par défaut)"
+
+#: inc/admin/google_image.php:310 inc/admin/google_scraping.php:282
+#: inc/admin/pixabay.php:171
+msgid "Active"
+msgstr "Activé"
+
+#: inc/admin/google_image.php:311 inc/admin/google_scraping.php:283
+#: inc/admin/pixabay.php:170
+msgid "Off"
+msgstr "Désactivé"
+
+#: inc/admin/google_scraping.php:166
+msgid "Not filtered by license (default)"
+msgstr "Non filtré par licence (par défaut)"
+
+#: inc/admin/google_scraping.php:167
+msgid "Labeled for reuse with modification"
+msgstr ""
+
+#: inc/admin/google_scraping.php:168
+msgid "Labeled for reuse"
+msgstr ""
+
+#: inc/admin/google_scraping.php:169
+msgid "Labeled for noncommercial reuse with modification"
+msgstr ""
+
+#: inc/admin/google_scraping.php:170
+msgid "Labeled for noncommercial reuse"
+msgstr ""
+
+#: inc/admin/google_scraping.php:196
+msgid "More than 400x300"
+msgstr ""
+
+#: inc/admin/google_scraping.php:197
+msgid "More than 640x480"
+msgstr ""
+
+#: inc/admin/google_scraping.php:198
+msgid "More than 800x600"
+msgstr ""
+
+#: inc/admin/google_scraping.php:199
+msgid "More than 1024x768"
+msgstr ""
+
+#: inc/admin/google_scraping.php:200
+msgid "More than 2Mpx"
+msgstr ""
+
+#: inc/admin/google_scraping.php:201
+msgid "More than 4Mpx"
+msgstr ""
+
+#: inc/admin/google_scraping.php:202
+msgid "More than 6Mpx"
+msgstr ""
+
+#: inc/admin/google_scraping.php:203
+msgid "More than 8Mpx"
+msgstr ""
+
+#: inc/admin/google_scraping.php:204
+msgid "More than 10Mpx"
+msgstr ""
+
+#: inc/admin/google_scraping.php:218
+msgid "Image format"
+msgstr ""
+
+#: inc/admin/google_scraping.php:227
+msgid "Portrait"
+msgstr ""
+
+#: inc/admin/google_scraping.php:228
+msgid "Square"
+msgstr ""
+
+#: inc/admin/google_scraping.php:229
+msgid "Landscape"
+msgstr ""
+
+#: inc/admin/google_scraping.php:230
+msgid "Panoramic"
+msgstr ""
+
+#: inc/admin/google_scraping.php:259
+msgid "Animated"
+msgstr ""
+
+#: inc/admin/google_scraping.php:313
+msgid "Restricted domains"
+msgstr "Restriction de domaine"
+
+#: inc/admin/google_scraping.php:315
+msgid "One domain per line"
+msgstr "Un domaine par ligne"
+
+#: inc/admin/google_scraping.php:316
+msgid "Leave empty to disable it"
+msgstr "Laisser vide pour le désactiver"
+
+#: inc/admin/main.php:10 inc/admin/main.php:16 magic_post_thumbnail.php:1016
+#: magic_post_thumbnail.php:1155
+msgid "Settings"
+msgstr "Paramètres"
+
+#: inc/admin/main.php:11 inc/admin/main.php:251
+msgid "Logs"
+msgstr "Journaux"
+
+#: inc/admin/main.php:54 inc/admin/main.php:76
+msgid "Select all"
+msgstr "Sélectionner tout"
+
+#: inc/admin/main.php:73
+msgid "Relevant categories"
+msgstr "Catégories concernées"
+
+#: inc/admin/main.php:97
+msgid "Featured or Post Image"
+msgstr ""
+
+#: inc/admin/main.php:100
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: inc/admin/main.php:101
+msgid "Top of post"
+msgstr "En haut du contenu"
+
+#: inc/admin/main.php:102
+msgid "End of post"
+msgstr "En bas du contenu"
+
+#: inc/admin/main.php:104
+msgid "Choose where the image will be created "
+msgstr "Choisissez où l'image sera générée"
+
+#: inc/admin/main.php:111
+msgid "Based on"
+msgstr "Basé sur"
+
+#: inc/admin/main.php:117 inc/admin/main.php:126 inc/admin/main.php:183
+msgid "Text Analyser"
+msgstr "Analyseur de texte"
+
+#: inc/admin/main.php:117 inc/admin/main.php:126
+msgid "(beta)"
+msgstr ""
+
+#: inc/admin/main.php:118 inc/admin/main.php:127 inc/admin/main.php:138
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: inc/admin/main.php:119 inc/admin/main.php:128 inc/admin/main.php:149
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/admin/main.php:120 inc/admin/main.php:129
+msgid "Custom Field"
+msgstr "Champ personnalisé"
+
+#: inc/admin/main.php:141
+msgid "First tag"
+msgstr "Première étiquette"
+
+#: inc/admin/main.php:142
+msgid "Last tag"
+msgstr "Dernière étiquette"
+
+#: inc/admin/main.php:143
+msgid "Random tag"
+msgstr "Etiquette au hasard"
+
+#: inc/admin/main.php:152
+msgid "First category"
+msgstr "Première catégorie"
+
+#: inc/admin/main.php:153
+msgid "Last category"
+msgstr "Dernière catégorie"
+
+#: inc/admin/main.php:154
+msgid "Random category"
+msgstr "Catégorie au hasard"
+
+#: inc/admin/main.php:160
+msgid "Custom field Name"
+msgstr "Nom du champ personnalisé"
+
+#: inc/admin/main.php:173
+msgid "Search picture according title"
+msgstr "Rechercher les images selon le titre"
+
+#: inc/admin/main.php:175
+msgid "Full title"
+msgstr "Titre complet"
+
+#: inc/admin/main.php:176
+msgid "Part of the title"
+msgstr "Une partie du titre"
+
+#: inc/admin/main.php:177
+msgid "first words of the title"
+msgstr "premiers mots du titre"
+
+#: inc/admin/main.php:186
+msgid "Perform post content analysis."
+msgstr "Effectue une analyse du contenu"
+
+#: inc/admin/main.php:192
+msgid "Selected Image "
+msgstr "Image sélectionnée "
+
+#: inc/admin/main.php:195
+msgid "First result"
+msgstr "Premier résultat"
+
+#: inc/admin/main.php:196
+msgid "Random result"
+msgstr "Résultat au hasard"
+
+#: inc/admin/main.php:202
+msgid "Image Filename "
+msgstr "Nom de fichier de l'image "
+
+#: inc/admin/main.php:206
+msgid "Date"
+msgstr ""
+
+#: inc/admin/main.php:207
+msgid "Random number"
+msgstr "Nombre aléatoire"
+
+#: inc/admin/main.php:213
+msgid "Rewrite existing images"
+msgstr "Réécrire les images existantes"
+
+#: inc/admin/main.php:216
+msgid "Rewrite"
+msgstr "Réécrire"
+
+#: inc/admin/main.php:218
+msgid "Warning : This option will rewrite existing images"
+msgstr "Attention : Cette option permet de réécrire des images existantes"
+
+#: inc/admin/main.php:239
+msgid "No log yet"
+msgstr "Pas encore de journal"
+
+#: inc/admin/main.php:248
+msgid "Enable Logs"
+msgstr "Activer le journal"
+
+#: inc/admin/main.php:257
+msgid "Logs history"
+msgstr "Historique du journal"
+
+#: inc/admin/main.php:266
+msgid "Download Log"
+msgstr "Download le journal"
+
+#: inc/admin/pixabay.php:12
+msgid ""
+"From now on, <b>it's required</b> to provide your own <b>username</b> and "
+"<b>api key</b>. You can register in Pixabay website <a target=\"_blank\" "
+"href=\"https://pixabay.com/en/accounts/register/\">here</a> and get api "
+"username/key <a target=\"_blank\" href=\"https://pixabay.com/api/docs/"
+"\">here</a>"
+msgstr ""
+"A partir de maintenant, <b>vous devez</b> renseigner votre <b>nom "
+"d'utilisateur</b> et <b>clef api</b>. Vous pouvez vous enregistrer sur "
+"Pixabay <a target=\"_blank\" href=\"https://pixabay.com/en/accounts/register/"
+"\">içi</a> et récupérer votre nom d'utilisateur/clef api <a target=\"_blank"
+"\" href=\"https://pixabay.com/api/docs/\">içi</a>"
+
+#: inc/admin/pixabay.php:19
+msgid "Pixabay username"
+msgstr "Pixabay username"
+
+#: inc/admin/pixabay.php:27 inc/admin/youtube.php:19
+msgid "Api key"
+msgstr ""
+
+#: inc/admin/pixabay.php:87 inc/admin/shutterstock.php:81
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: inc/admin/pixabay.php:100 inc/admin/shutterstock.php:86
+msgid "Chinese"
+msgstr "Chinois"
+
+#: inc/admin/pixabay.php:115 inc/admin/shutterstock.php:148
+msgid "Orientation"
+msgstr "Orientation"
+
+#: inc/admin/pixabay.php:124 inc/admin/shutterstock.php:157
+msgid "Horizontal"
+msgstr "Horizontale"
+
+#: inc/admin/pixabay.php:125 inc/admin/shutterstock.php:158
+msgid "Vertical"
+msgstr "Verticale"
+
+#: inc/admin/pixabay.php:140
+msgid "Minimum width"
+msgstr "Largeur minimale"
+
+#: inc/admin/pixabay.php:151
+msgid "Minimum height"
+msgstr "Hauteur minimale"
+
+#: inc/admin/pixabay.php:162
+msgid "Safesearch"
+msgstr "Recherche Sécurisée"
+
+#: inc/admin/proxy.php:10 magic_post_thumbnail.php:1019
+msgid "Proxy"
+msgstr ""
+
+#: inc/admin/proxy.php:22
+msgid ""
+"If you have a free or paid proxy, you can setup it here. Use it carefully"
+msgstr ""
+"Si vous avez un proxy gratuit ou payant, vous pouvez le configurer ici. "
+"Utilisez-le avec précaution"
+
+#: inc/admin/proxy.php:26
+msgid "Enable Proxy"
+msgstr "Activer le proxy"
+
+#: inc/admin/proxy.php:39
+msgid "Address"
+msgstr ""
+
+#: inc/admin/proxy.php:47
+msgid "Port"
+msgstr ""
+
+#: inc/admin/shutterstock.php:12
+msgid ""
+"<b>It's required</b> to provide your own <b>username</b> and <b>api key</b>. "
+"You can register in shutterstock website <a target=\"_blank\" href=\"https://"
+"accounts.shutterstock.com/users/new\">here</a> and get api username/key <a "
+"target=\"_blank\" href=\"https://shutterstock.com/api/docs/\">here</a>"
+msgstr ""
+"A partir de maintenant, <b>vous devez</b> renseigner votre <b>nom "
+"d'utilisateur</b> et <b>clef api</b>. Vous pouvez vous enregistrer sur "
+"Pixabay <a target=\"_blank\" href=\"https://pixabay.com/en/accounts/register/"
+"\">içi</a> et récupérer votre nom d'utilisateur/clef api <a target=\"_blank"
+"\" href=\"https://pixabay.com/api/docs/\">içi</a>"
+
+#: inc/admin/shutterstock.php:19
+msgid "Shutterstock Client ID"
+msgstr ""
+
+#: inc/admin/shutterstock.php:28
+msgid "Shutterstock Client Secret"
+msgstr ""
+
+#: inc/admin/shutterstock.php:37
+msgid "Type"
+msgstr ""
+
+#: inc/admin/shutterstock.php:46
+msgid "Video"
+msgstr ""
+
+#: inc/admin/shutterstock.php:67
+msgid "All languages (default)"
+msgstr "Toutes les langues (par défaut)"
+
+#: inc/admin/shutterstock.php:100 inc/admin/shutterstock.php:123
+msgid "Licence"
+msgstr ""
+
+#: inc/admin/shutterstock.php:108 inc/admin/shutterstock.php:131
+msgid "Commercial"
+msgstr ""
+
+#: inc/admin/shutterstock.php:109 inc/admin/shutterstock.php:132
+msgid "Editorial"
+msgstr ""
+
+#: inc/admin/shutterstock.php:133
+msgid "Enhanced"
+msgstr ""
+
+#: inc/admin/shutterstock.php:134
+msgid "Sensitive"
+msgstr ""
+
+#: inc/admin/shutterstock.php:156 inc/admin/shutterstock.php:180
+#: inc/admin/shutterstock.php:212
+msgid "All"
+msgstr ""
+
+#: inc/admin/shutterstock.php:172
+msgid "People Age"
+msgstr ""
+
+#: inc/admin/shutterstock.php:181
+msgid "Infants"
+msgstr ""
+
+#: inc/admin/shutterstock.php:182
+msgid "Children"
+msgstr ""
+
+#: inc/admin/shutterstock.php:183
+msgid "Teenagers"
+msgstr ""
+
+#: inc/admin/shutterstock.php:184
+msgid "20s"
+msgstr ""
+
+#: inc/admin/shutterstock.php:185
+msgid "30s"
+msgstr ""
+
+#: inc/admin/shutterstock.php:186
+msgid "40s"
+msgstr ""
+
+#: inc/admin/shutterstock.php:187
+msgid "50s"
+msgstr ""
+
+#: inc/admin/shutterstock.php:188
+msgid "60s"
+msgstr ""
+
+#: inc/admin/shutterstock.php:189
+msgid "Older"
+msgstr ""
+
+#: inc/admin/shutterstock.php:204
+msgid "People Gender"
+msgstr ""
+
+#: inc/admin/shutterstock.php:213
+msgid "Male"
+msgstr ""
+
+#: inc/admin/shutterstock.php:214
+msgid "Female"
+msgstr ""
+
+#: inc/admin/shutterstock.php:215
+msgid "Both"
+msgstr ""
+
+#: inc/admin/shutterstock.php:230
+msgid "Safe search"
+msgstr ""
+
+#: inc/admin/shutterstock.php:254
+msgid "Sort"
+msgstr ""
+
+#: inc/admin/shutterstock.php:262
+msgid "Popular"
+msgstr ""
+
+#: inc/admin/shutterstock.php:263
+msgid "Newest"
+msgstr ""
+
+#: inc/admin/shutterstock.php:264
+msgid "Relevance"
+msgstr ""
+
+#: inc/admin/shutterstock.php:265
+msgid "Random"
+msgstr ""
+
+#: inc/admin/unsplash.php:12
+#, fuzzy
+#| msgid ""
+#| "<b>It's required</b> to provide your own <b>username</b> and <b>api key</"
+#| "b>. You can register in shutterstock website <a target=\"_blank\" href="
+#| "\"https://accounts.shutterstock.com/users/new\">here</a> and get api "
+#| "username/key <a target=\"_blank\" href=\"https://shutterstock.com/api/"
+#| "docs/\">here</a>"
+msgid ""
+"<b>It's required</b> to provide your own Unsplash <b>Access Key</b>. You "
+"must follow the process. Registration is <a target=\"_blank\" href=\"https://"
+"unsplash.com/join\">here</a>. Application creation and <a target=\"_blank\" "
+"href=\"https://unsplash.com/oauth/applications\">API Id are on this page</a>."
+msgstr ""
+"A partir de maintenant, <b>vous devez</b> renseigner votre <b>nom "
+"d'utilisateur</b> et <b>clef api</b>. Vous pouvez vous enregistrer sur "
+"Pixabay <a target=\"_blank\" href=\"https://pixabay.com/en/accounts/register/"
+"\">içi</a> et récupérer votre nom d'utilisateur/clef api <a target=\"_blank"
+"\" href=\"https://pixabay.com/api/docs/\">içi</a>"
+
+#: inc/admin/unsplash.php:19
+msgid "Access Key"
+msgstr ""
+
+#: inc/admin/youtube.php:12
+msgid ""
+"<b>It's required</b> to provide your own Google/Youtube <b>API Key</b>. You "
+"must follow the process <a target=\"_blank\" href=\"https://developers."
+"google.com/custom-search/json-api/v1/overview#prerequisites\">here</a>."
+msgstr ""
+
+#: inc/cron.php:60
+msgid "Magic Post Thumbnail Cron"
+msgstr ""
+
+#: magic_post_thumbnail.php:161 magic_post_thumbnail.php:169
+msgid "Generate featured images"
+msgstr "Générer image à la une"
+
+#: magic_post_thumbnail.php:1007
+msgid "Magic Post Thumbnail Options"
+msgstr ""
+
+#: magic_post_thumbnail.php:1017
+msgid "Banks"
+msgstr "Banques"
+
+#: magic_post_thumbnail.php:1020
+msgid "Affiliation"
+msgstr ""
+
+#: magic_post_thumbnail.php:1081 magic_post_thumbnail.php:1091
+#: magic_post_thumbnail.php:1101 magic_post_thumbnail.php:1111
+#: magic_post_thumbnail.php:1121
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas d'autorisations suffisantes pour accéder à cette page."
+
+#: magic_post_thumbnail.php:1159
+msgid "Upgrade to Pro"
+msgstr "Passer à la version Pro"
+
+#: magic_post_thumbnail.php:1199
+msgid "Plugin enabled for this post"
+msgstr "Plugin activé sur cet article"
+
+#~ msgid "Every 10 minutes"
+#~ msgstr "Toutes les 10 minutes"
+
+#~ msgid "Every two hours"
+#~ msgstr "Toutes les deux heures"
+
+#~ msgid "Every six hours"
+#~ msgstr "Toutes les six heures"
+
+#~ msgid "Thumbnail image of "
+#~ msgstr "Image mise en avant de "
+
+#~ msgid "Successful image creation for "
+#~ msgstr "Création de l'image réussie pour "
+
+#~ msgid "Search Preferences"
+#~ msgstr "Préférences de recherche"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgid "Red"
+#~ msgstr "Rouge"
+
+#~ msgid "Choose which pictures database you want to search for pictures"
+#~ msgstr ""
+#~ "Choisissez dans quelle banque d'images vous voulez rechercher des images"
+
+#~ msgid "Database"
+#~ msgstr "Base d'image"
+
+#~ msgid "Save Options"
+#~ msgstr "Enregistrer les modifications"
+
+#~ msgid "Choose your language"
+#~ msgstr "Choisissez votre langue"
+
+#~ msgid "Choose your database"
+#~ msgstr "Choisissez votre base d'images"
+
+#~ msgid ""
+#~ "Only Pixabay is available now, but others databases will be available "
+#~ "with next versions"
+#~ msgstr ""
+#~ "Pixabay est le seul disponible maintenant, d'autres bases d'images seront "
+#~ "dispo dans les prochaines versions"
+
+#~ msgid ""
+#~ "Sorry, your server require allow_url_fopen ON, please update your server "
+#~ "before using this plugin"
+#~ msgstr ""
+#~ "Désolé, allow_url_fopen doit être activé, veuillez s'il vous plait mettre "
+#~ "à jour votre serveur afin d'utiliser ce plugin."
+
+#~ msgid "Safe mode protects images sexually explicit"
+#~ msgstr "Le mode Safe protège des images à caractère sexuel explicite"
+
+#~ msgid "Choose your Google country's search"
+#~ msgstr "Choisissez votre pays de recherche Google"
+
+#~ msgid "Brazil"
+#~ msgstr "Brésil"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Egypt"
+#~ msgstr "Egypte"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "Netherlands"
+#~ msgstr "Pays-Bas"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexique"
+
+#~ msgid "Morocco"
+#~ msgstr "Maroque"
+
+#~ msgid "Peru"
+#~ msgstr "Pérou"
+
+#~ msgid "South Africa"
+#~ msgstr "Afrique du Sud"
+
+#~ msgid "Spain"
+#~ msgstr "Espagne"
+
+#~ msgid "Swiss"
+#~ msgstr "Suisse"
+
+#~ msgid "UK"
+#~ msgstr "Royaume-Uni"
+
+#~ msgid "USA"
+#~ msgstr "États-Unis"
+
+#~ msgid "Country's google search"
+#~ msgstr "Pays sur lequel porte la recherche"
+
+#~ msgid "Usage rights"
+#~ msgstr "Droits d'usage"
+
+#~ msgid "free to use or share"
+#~ msgstr "libre de droits d'usage ou de distribution"
+
+#~ msgid "free to use or share, even commercially"
+#~ msgstr ""
+#~ "libre de droits d'usage ou de distribution, y compris à des fins "
+#~ "commerciales"
+
+#~ msgid "free to use share or modify"
+#~ msgstr "libre de droits d'usage, de distribution ou de modification"
+
+#~ msgid "free to use, share or modify, even commercially"
+#~ msgstr ""
+#~ "libre de droits d'usage, de distribution ou de modification, y compris à "
+#~ "des fins commerciales"
+
+#~ msgid ""
+#~ "Filter only images royalty-free ... <b> Warning </b>: These filters can "
+#~ "reduce the relevance of some results"
+#~ msgstr ""
+#~ "Filtre uniquement les images libre de droit... <b>Attention</b> : ces "
+#~ "filtres peuvent réduire\t la pertinence de certains résultats"

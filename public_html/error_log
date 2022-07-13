@@ -1,0 +1,311 @@
+[28-Jun-2022 07:42:45 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `Uv5_options` WHERE `option_name` = '_transient_timeout_epc_throttled' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/endurance-page-cache.php'), Endurance_Page_Cache->__construct, get_transient, delete_option
+[28-Jun-2022 14:35:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "news_vibe_validate_header_overlay" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#1 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(611): apply_filters('customize_valid...', Object(WP_Error), '6', Object(WP_Customize_Setting))
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1828): WP_Customize_Setting->validate('6')
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#7 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#10 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#11 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#12 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#14 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[28-Jun-2022 14:35:40 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "news_vibe_validate_header_overlay" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#1 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(611): apply_filters('customize_valid...', Object(WP_Error), '2', Object(WP_Customize_Setting))
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1828): WP_Customize_Setting->validate('2')
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#7 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#10 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#11 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#12 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#14 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[28-Jun-2022 14:35:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "news_vibe_validate_header_overlay" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#1 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(611): apply_filters('customize_valid...', Object(WP_Error), '2', Object(WP_Customize_Setting))
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1828): WP_Customize_Setting->validate('2')
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#7 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#10 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#11 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#12 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#14 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[28-Jun-2022 14:36:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "news_vibe_validate_header_overlay" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#1 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(611): apply_filters('customize_valid...', Object(WP_Error), '2', Object(WP_Customize_Setting))
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1828): WP_Customize_Setting->validate('2')
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#7 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#10 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#11 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#12 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#14 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[28-Jun-2022 14:36:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "news_vibe_validate_header_overlay" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#1 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(611): apply_filters('customize_valid...', Object(WP_Error), '2', Object(WP_Customize_Setting))
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1828): WP_Customize_Setting->validate('2')
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#7 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#9 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#10 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#11 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#12 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#14 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[28-Jun-2022 15:39:01 UTC] PHP Warning:  Attempt to read property "choices" on null in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php on line 585
+[28-Jun-2022 15:39:01 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php:588
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): Newslist_Customizer::sanitize_choice('box', Object(WP_Customize_Setting))
+#1 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters('box', Array)
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'box', Object(WP_Customize_Setting))
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1833): WP_Customize_Setting->sanitize('box')
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(453): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Setting->_preview_filter('default')
+#7 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters('default', Array)
+#8 /home1/phiferf1/public_html/wp-includes/theme.php(1033): apply_filters('theme_mod_newsl...', 'default')
+#9 /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php(655): get_theme_mod('newslist-contai...', 'default')
+#10 /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php(1127): Newslist_Customizer::get('newslist-contai...')
+#11 /home1/phiferf1/public_html/wp-content/themes/newslist/inc/dynamic-css/common.php(20): newslist_get('newslist-contai...')
+#12 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): newslist_custom_width(Object(WP_Customize_Manager))
+#13 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#14 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#15 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1945): do_action('customize_previ...', Object(WP_Customize_Manager))
+#16 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(942): WP_Customize_Manager->customize_preview_init()
+#17 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#18 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#19 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#20 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#21 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#22 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#23 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#24 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#25 {main}
+  thrown in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php on line 588
+[28-Jun-2022 15:39:16 UTC] PHP Warning:  Attempt to read property "choices" on null in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php on line 585
+[28-Jun-2022 15:39:16 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php:588
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): Newslist_Customizer::sanitize_choice('box', Object(WP_Customize_Setting))
+#1 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters('box', Array)
+#2 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'box', Object(WP_Customize_Setting))
+#3 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1833): WP_Customize_Setting->sanitize('box')
+#4 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 /home1/phiferf1/public_html/wp-includes/class-wp-customize-setting.php(453): WP_Customize_Setting->post_value(Object(stdClass))
+#6 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Setting->_preview_filter('default')
+#7 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters('default', Array)
+#8 /home1/phiferf1/public_html/wp-includes/theme.php(1033): apply_filters('theme_mod_newsl...', 'default')
+#9 /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php(655): get_theme_mod('newslist-contai...', 'default')
+#10 /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php(1127): Newslist_Customizer::get('newslist-contai...')
+#11 /home1/phiferf1/public_html/wp-content/themes/newslist/inc/dynamic-css/common.php(20): newslist_get('newslist-contai...')
+#12 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): newslist_custom_width(Object(WP_Customize_Manager))
+#13 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#14 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#15 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(1945): do_action('customize_previ...', Object(WP_Customize_Manager))
+#16 /home1/phiferf1/public_html/wp-includes/class-wp-customize-manager.php(942): WP_Customize_Manager->customize_preview_init()
+#17 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#18 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#19 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#20 /home1/phiferf1/public_html/wp-settings.php(620): do_action('wp_loaded')
+#21 /home1/phiferf1/public_html/wp-config.php(101): require_once('/home1/phiferf1...')
+#22 /home1/phiferf1/public_html/wp-load.php(50): require_once('/home1/phiferf1...')
+#23 /home1/phiferf1/public_html/wp-blog-header.php(13): require_once('/home1/phiferf1...')
+#24 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#25 {main}
+  thrown in /home1/phiferf1/public_html/wp-content/themes/newslist/classes/customizer/class-framework.php on line 588
+[03-Jul-2022 21:55:38 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:55:38 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:55:38 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:55:39 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:55:39 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:55:39 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:55:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:55:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:55:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:55:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:55:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:55:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:09 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:21 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:27 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:56:32 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:42 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:42 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:42 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:43 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:43 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:43 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:53 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:53 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:53 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:57:54 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:57:54 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:57:54 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:04 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:04 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:04 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:06 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:08 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:10 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:24 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:48 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:50 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:51 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:57 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:57 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:57 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:58:58 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:58:58 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:58:58 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:59:03 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:59:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:59:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:59:05 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[03-Jul-2022 21:59:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 168
+[03-Jul-2022 21:59:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 169
+[03-Jul-2022 21:59:07 UTC] PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /home1/phiferf1/public_html/wp-content/themes/sports-club-lite/functions.php on line 170
+[06-Jul-2022 04:06:00 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `Uv5_options` WHERE `option_name` = '_transient_epc_throttled' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/endurance-page-cache.php'), Endurance_Page_Cache->__construct, get_transient, delete_option
+[07-Jul-2022 14:41:40 UTC] PHP Warning:  include(page-templates/full-width.php): Failed to open stream: No such file or directory in /home1/phiferf1/public_html/wp-includes/template-loader.php on line 106
+[07-Jul-2022 14:41:40 UTC] PHP Warning:  include(): Failed opening 'page-templates/full-width.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/phiferf1/public_html/wp-includes/template-loader.php on line 106
+[11-Jul-2022 17:29:54 UTC] PHP Warning:  rename(/tmp/jetpack.11.1.1-cJecq8.tmp,/tmp/jetpack.11.1.1.zip): Operation not permitted in /home1/phiferf1/public_html/wp-admin/includes/file.php on line 1203
+[11-Jul-2022 17:29:54 UTC] PHP Warning:  unlink(/tmp/jetpack.11.1.1.zip): Operation not permitted in /home1/phiferf1/public_html/wp-admin/includes/file.php on line 1208
+[12-Jul-2022 15:08:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_wp_nav_menu_args" not found or invalid function name in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /home1/phiferf1/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#1 /home1/phiferf1/public_html/wp-includes/nav-menu-template.php(97): apply_filters('wp_nav_menu_arg...', Array)
+#2 /home1/phiferf1/public_html/wp-content/themes/newslist/classes/class-helper.php(600): wp_nav_menu(Array)
+#3 /home1/phiferf1/public_html/wp-content/themes/newslist/templates/header/header-main.php(54): Newslist_Helper::get_menu('primary', true)
+#4 /home1/phiferf1/public_html/wp-includes/template.php(772): require('/home1/phiferf1...')
+#5 /home1/phiferf1/public_html/wp-includes/template.php(716): load_template('/home1/phiferf1...', false, Array)
+#6 /home1/phiferf1/public_html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /home1/phiferf1/public_html/wp-content/themes/newslist/functions.php(283): get_template_part('templates/heade...', 'main')
+#8 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(307): Newslist_Theme::header('')
+#9 /home1/phiferf1/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#10 /home1/phiferf1/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#11 /home1/phiferf1/public_html/wp-content/themes/newslist/header.php(34): do_action('newslist_header')
+#12 /home1/phiferf1/public_html/wp-includes/template.php(770): require_once('/home1/phiferf1...')
+#13 /home1/phiferf1/public_html/wp-includes/template.php(716): load_template('/home1/phiferf1...', true, Array)
+#14 /home1/phiferf1/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#15 /home1/phiferf1/public_html/wp-content/themes/newslist/index.php(14): get_header()
+#16 /home1/phiferf1/public_html/wp-includes/template-loader.php(106): include('/home1/phiferf1...')
+#17 /home1/phiferf1/public_html/wp-blog-header.php(19): require_once('/home1/phiferf1...')
+#18 /home1/phiferf1/public_html/index.php(17): require('/home1/phiferf1...')
+#19 {main}
+  thrown in /home1/phiferf1/public_html/wp-includes/class-wp-hook.php on line 307
+[12-Jul-2022 15:29:08 UTC] PHP Warning:  Undefined variable $join_url in /home1/phiferf1/public_html/wp-content/plugins/simple-membership/views/login.php on line 39
+[12-Jul-2022 15:29:11 UTC] PHP Warning:  Undefined variable $join_url in /home1/phiferf1/public_html/wp-content/plugins/simple-membership/views/login.php on line 39
+[12-Jul-2022 15:29:15 UTC] PHP Warning:  Undefined variable $join_url in /home1/phiferf1/public_html/wp-content/plugins/simple-membership/views/login.php on line 39

@@ -1,0 +1,4 @@
+li#accordion-section-blog_diary_blog_section ,
+li#accordion-section-blog_diary_reset_section {
+    display: none !important;
+}

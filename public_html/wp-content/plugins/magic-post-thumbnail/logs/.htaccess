@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+<Files ~ "\.(log)$">
+   order deny,allow
+   deny from all
+   Require local
+   allow from all
+</Files>
+</IfModule>
