@@ -1,0 +1,10 @@
+API List:
+  https://www.programmableweb.com/news/91-sports-apis-fanfeedr-seatwave-and-espn/2012/08/01
+
+Tools:
+  Strapi
+  Laravel
+  https://payloadcms.com/ - Free + Open Source CMS
+  https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/
+  
+  
