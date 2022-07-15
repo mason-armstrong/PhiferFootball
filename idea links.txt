@@ -6,5 +6,6 @@ Tools:
   Laravel
   https://payloadcms.com/ - Free + Open Source CMS
   https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/
+  NextJS
   
   
