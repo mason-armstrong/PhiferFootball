@@ -1,0 +1,75 @@
+-----------To do list ordered sorted by department and ordered by priority-----------
+----------------------Delete an item when it is completed----------------------------
+
+
+
+__________________Social Media___________________
+
+1. Social media accounts that still need created
+  - Facebook
+  - LinkedIn
+  - Reddit
+2. Copyright licesnsing research
+3. SEO Reserach
+4. Scheduled social media posts
+5. Reach out to website that hosts news blogs (YardBarker)
+6. Logo finalization
+
+________________Writer and Editior________________
+
+1. Come up with a plan to staff new writers
+2. Design 5 article templates that will be the "style" of the website
+3. Develop an article posting schedule
+4. Look into forms of automation
+  - Auto posting on social media
+  - AI generated blogs
+  - AI generated copywriting and editing
+  
+
+
+___________________Engineering___________________
+
+1. Figure out hosting provider
+2. Domain registration and website transfer
+3. Upgrade SEO design
+  - CSS and HTML redesign
+  - Meta data research
+  - Meta data descripiton update 
+  - Meta data search info
+4. Backend improvement
+  - Delete unnesessary Javascript
+  - Delete CSS causing low performance
+  - Better CMS deployment for writers
+5. Frontend improvement
+  - Reduce image size
+  - Footer redesign
+  - Delete "Time to read"
+ 6. Page Improvements
+  - Profile Page
+  - Recent Posts
+ 7. New Pages
+  - Why signup for the website
+  - Podcasts
+  - NewsLetter
+    * Automate the deployment
+    
+ 
+______________________Business______________________
+1. Market research
+2. Organizational structure development
+3. Monetization rules
+4. Ways to make money
+
+
+
+
+
+
+
+
+
+
+
+
+
+
