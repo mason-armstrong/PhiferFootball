@@ -9,15 +9,15 @@ __________________Social Media___________________
   - Facebook
   - LinkedIn
   - Reddit
-2. Copyright licesnsing research
-3. SEO Reserach
+2. Copyright licesnsing research - MA
+3. SEO Reserach - MA
 4. Scheduled social media posts
 5. Reach out to website that hosts news blogs (YardBarker)
 6. Logo finalization
 
 ________________Writer and Editior________________
 
-1. Come up with a plan to staff new writers
+1. Come up with a plan to staff new writers - MA
 2. Design 5 article templates that will be the "style" of the website
 3. Develop an article posting schedule
 4. Look into forms of automation
@@ -31,22 +31,22 @@ ___________________Engineering___________________
 
 1. Figure out hosting provider
 2. Domain registration and website transfer
-3. Upgrade SEO design
-  - CSS and HTML redesign
-  - Meta data research
-  - Meta data descripiton update 
-  - Meta data search info
-4. Backend improvement
-  - Delete unnesessary Javascript
-  - Delete CSS causing low performance
+3. Upgrade SEO design -Done 
+  - CSS and HTML redesign -MA
+  - Meta data research -MA
+  - Meta data descripiton update -MA 
+  - Meta data search info -MA
+4. Backend improvement 
+  - Delete unnesessary Javascript - MA
+  - Delete CSS causing low performance -MA
   - Better CMS deployment for writers
 5. Frontend improvement
-  - Reduce image size
-  - Footer redesign
+  - Reduce image size - MA
+  - Footer redesign - MA
   - Delete "Time to read"
  6. Page Improvements
-  - Profile Page
-  - Recent Posts
+  - Profile Page 
+  - Recent Posts -MA
  7. New Pages
   - Why signup for the website
   - Podcasts
